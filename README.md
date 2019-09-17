@@ -13,6 +13,7 @@ I'm always interested in new ideas. Currently, I'm planning features like:
   * Slightly altered UI
   * Easier switching between different "Notebooks" (By adding a working directory)
   * Tags and Sections
+  * Portrait mode
 * Document
   * Interpolate lines for smooth drawing like in OneNote (depending on how hard this is to integrate and how big the performance impact is)
   * Tables & bullet lists
