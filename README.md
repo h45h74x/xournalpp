@@ -7,11 +7,11 @@
 Xournalpp - h45mod is a fork of Xournalpp created to suit my own needs. (As the devs currently don't accept any pull requests and I need some features for my workflow).
 My goals are to add some of my favourite features of other notetaking software (mostly OneNote) to Xournalpp.
 
-I'm planning features like:
+I'm always interested in new ideas. Currently, I'm planning features like:
 * PDF and Xournal-file Cloud Sync (Primarily Google Drive)
 * Navigation
   * Slightly altered UI
-  * Easier switching between different "Notebooks"
+  * Easier switching between different "Notebooks" (By adding a working directory)
   * Tags and Sections
 * Document
   * Interpolate lines for smooth drawing like in OneNote (depending on how hard this is to integrate and how big the performance impact is)
