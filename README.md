@@ -3,36 +3,26 @@
 [![Build Status](https://dev.azure.com/xournalpp/xournalpp/_apis/build/status/CI?branchName=master)](https://dev.azure.com/xournalpp/xournalpp/_build/latest?definitionId=1&branchName=master)
 [![Join the chat at https://gitter.im/xournalpp/xournalpp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xournalpp/xournalpp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Important Notice
-For some required changes to our code base we can currently not admit any pull requests. We are very thankful to anybody that is willing to work on Xournal++ and hope that this inconvenience will not deter you from helping us out. The last PR that will be merged before we do the extensive changes to the code base is #1430, which will then be followed by one last release before our PR freeze. Afterwards we will do the necessary work to ensure a continued solid development of Xournal++. Once we are finished we will remove this note and welcome all your PRs with open hands! Thanks for your support!
+## Introducing h45mod
+Xournalpp - h45mod is a fork of Xournalpp created to suit my own needs. (As the devs currently don't accept any pull requests and I need some features for my workflow).
+My goals are to add some of my favourite features of other notetaking software (mostly OneNote) to Xournalpp.
 
-<table border="0px" ><tr><td width = 600px>
+I'm planning features like:
+* PDF and Xournal-file Cloud Sync (Primarily Google Drive)
+* Navigation
+  * Slightly altered UI
+  * Easier switching between different "Notebooks"
+  * Tags and Sections
+* Document
+  * Interpolate lines for smooth drawing like in OneNote (depending on how hard this is to integrate and how big the performance impact is)
+  * Tables & bullet lists
+  * Some font formatting stuff, more headline styles and such
+  * Infinite paper size ("Whiteboard mode")
+  
+This list is not sorted in any way, also, as a student, I have limited time. I'll integrate the easier features first and then add the rest as I need it.
 
-<img src="readme/main.png" width=550px% title="Xournal++ Screenshot on Linux"/>
-
-</td><td>
-
-## Shout out - Translators Needed!  
-
-Recently we revisited the settings dialog to improve the feeling and usability.
-While doing that we also added better descriptions, for which we require
-new translations.
-
-Partial translations, which need to be updated:
-- Czech
-- Polish
-- Chinese
-
-Full translations for all languages not mentioned previously **except**:
-- English
-- German
-- Italian
-
-If you would like to help us imporve the localization of Xournal++ take a look at [our Crowdin project](https://crowdin.com/project/xournalpp). If you are interested in translating a new language, contact us on [Gitter](https://gitter.im/xournalpp/xournalpp) or create a new issue and we will unlock the language on Crowdin.
-
-**Thanks in advance!**
-
-</td></tr></table>
+Of course all features can be disabled one by one in the settings.
+Thanks to the devs of Xournalpp for their great work :D
 
 ## Features
 
