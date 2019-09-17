@@ -6,10 +6,6 @@ steps:
   - bash: |
       brew update
       brew upgrade
-      brew install cmake ninja pkg-config gtk+3 gtk-mac-integration poppler librsvg adwaita-icon-theme portaudio libsndfile lua libzip cppunit gettext
-      brew link --force gettext
-    displayName: 'Install dependencies'
-  - bash: |
       brew install --with-toolchain llvm
       brew info llvm
       echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.bash_profile
@@ -17,8 +13,12 @@ steps:
       export CXX := clang++
       LDFLAGS += -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib
       CPPFLAGS += -I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1/
-      xcode-select --install
+  #xcode-select --install
     displayName: 'Install llvm'
+  - bash: |
+      brew install cmake ninja pkg-config gtk+3 gtk-mac-integration poppler librsvg adwaita-icon-theme portaudio libsndfile lua libzip cppunit gettext
+      brew link --force gettext
+    displayName: 'Install dependencies'
   #- bash: |
       #/bin/bash -c "sudo xcode-select -s /Applications/Xcode_11.app/Contents/Developer"
     #displayName: 'swap XCode'
