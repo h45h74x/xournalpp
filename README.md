@@ -15,10 +15,9 @@ I'm always interested in new ideas. Currently, I'm planning features like:
   * Tags and Sections
   * Portrait mode
 * Document
-  * Interpolate lines for smooth drawing like in OneNote (depending on how hard this is to integrate and how big the performance impact is)
-  * Tables & bullet lists
+  * Shortcuts for Tables & bullet lists
   * Some font formatting stuff, more headline styles and such
-  * Infinite paper size ("Whiteboard mode")
+  * Shortcut for bigger paper size ("Whiteboard mode")
   
 This list is not sorted in any way, also, as a student, I have limited time. I'll integrate the easier features first and then add the rest as I need it.
 
